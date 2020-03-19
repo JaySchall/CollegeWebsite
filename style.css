@@ -1,0 +1,465 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: white;
+}
+header {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-flow: wrap;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+header .brand {
+  font-size: 24px;
+  color: rgb(20, 20, 20);
+  font-weight: 700;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Baloo Chettan 2', cursive;
+  width: fit-content;
+}
+header nav {
+  width: 80%;
+  margin: 0 auto;
+}
+header nav ul {
+  display: block;
+margin: 0 auto;
+width: fit-content;
+
+}
+header nav ul li{
+  display: inline-block;
+  float left;
+  list-style: none;
+  padding: 0 16px;
+}
+header nav ul li a{
+  font-size: 16px;
+  color: rgb(30, 30, 30);
+  font-family: 'Baloo Chettan 2', cursive;
+}
+header .extra {
+  display: none;
+}
+@media only screen and (min-width:1000px)
+{
+  header .brand {
+    margin: 20px 0;
+    text-align: left;
+    line-height: 30px;
+    padding: 0 20px 0 40px;
+
+
+  }
+  header nav ul {
+  margin: 30px 0;
+  }
+  header nav ul li{
+    float left;
+    list-style: none;
+
+  }
+  header nav ul li a{
+    line-height: 10px;
+  }
+
+}
+.banner{
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-image: url('ceremony.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner h2 {
+  padding: 10px 0;
+  font-size: 60px;
+  text-shadow: 2px 2px 8px rgb(10,10,10);
+  color: rgb(250, 250, 250);
+  font-weight: 700;
+  text-align: center;
+  line-height: 70px;
+}
+.banner h1 {
+  padding: 20px 0;
+  font-size: 27px;
+  text-shadow: 1px 1px 5px rgb(10,10,10);
+  color: rgb(250, 250, 250);
+  font-weight: 700;
+  text-align: center;
+  line-height: 40px;
+}
+@media only screen and (min-width:1000px)
+{
+  .banner h2 {
+    padding: 20px 0;
+    font-size: 90px;
+    text-shadow: 2px 2px 8px rgb(10,10,10);
+    line-height: 120px;
+  }
+  .banner h1 {
+    padding: 40px 0;
+    font-size: 60px;
+    text-shadow: 1px 1px 5px rgb(10,10,10);
+    line-height: 70px;
+  }
+}
+ .box {
+  margin: 20px;
+  width: calc(100%-40px);
+  height: 80px;
+  background-color: #3282b8;
+
+}
+.box h3 {
+  color: rgb(240, 240, 240);
+  font-family: 'Baloo Chettan 2';
+  font-size: 36px;
+  text-align: center;
+  line-height: 80px;
+  font-weight: 580;
+}
+@media only screen and (min-width:1000px)
+{
+  .box {
+   margin: 60px auto;
+   width: 700px;
+   height: 160px;
+   background-color: #3282b8;
+
+ }
+ .box h3 {
+   padding: 30px;
+   font-size: 100px;
+   text-align: center;
+   line-height: 80px;
+   font-weight: 580;
+ }
+}
+.textbox h2 {
+  margin: 0 20px;
+  font-size: 30px;
+  font-family: 'Baloo Chettan 2';
+  text-align: center;
+  line-height: 30px
+}
+.container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+
+}
+.picturebox {
+  width: 100%;
+  height: 300px;
+  background-image: url('man.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 10px auto;
+}
+.infotext2 ul {
+  display: block;
+padding: 10px 10px;
+width: calc(100%-140px);
+}
+.infotext2 ul li{
+list-style: none;
+}
+.infotext2 ul li h2{
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 22px;
+list-style: none;
+}
+.infotext2 ul li a{
+  font-weight: 600;
+  font-size: 16px;
+  color: #3282b8;
+  font-family: 'Baloo Chettan 2', cursive;
+  line-height: 40px;
+}
+@media only screen and (min-width:1000px)
+{
+  .container {
+    margin: 40px auto;
+
+  }
+  .textbox h2 {
+    margin: 50px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .picturebox {
+    width: 700px;
+    height: 400px;
+    background-image: url('man.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+  }
+  .infotext2 ul {
+    display: block;
+  padding: 10px 10px;
+  width: calc(100%-140px);
+  }
+  .infotext2 ul li{
+  list-style: none;
+  }
+  .infotext2 ul li h2{
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 32px;
+  list-style: none;
+  }
+  .infotext2 ul li a{
+    font-weight: 600;
+    font-size: 22px;
+    color: #3282b8;
+    font-family: 'Baloo Chettan 2', cursive;
+    line-height: 40px;
+  }
+}
+footer {
+
+  width: calc(100%-40px);
+  padding: 40px 20px;
+  background-color: rgb(30, 30, 30);
+}
+footer ul {
+  width: fit-content;
+
+
+}
+footer ul li {
+  display: block;
+  list-style: none;
+
+}
+footer ul li a {
+  color: rgb(210, 210, 210);
+  font-family: 'Baloo Chettan 2', cursive;
+  line-height: 25px;
+
+}
+/* Quiz sheet */
+.Quizbanner {
+  width: 100%;
+  height: calc(100vh - 80px);
+  background-color: #0f4c75;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Quizbanner h2{
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 20px;
+  color: #fff;
+  font-family: 'Baloo Chettan 2', cursive;
+  line-height: 40px;
+}
+.emptybox {
+  width: 100%;
+  height: calc(50% - 40px);
+  position: relative;
+}
+.answer {
+  width: 180px;
+  height: 35px;
+  background-color: rgb(240,240,240);
+  padding: 8px 0px;
+  border-radius: 15px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%; left : 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+
+}
+.answer::before {
+
+color: rgb(30, 30, 30);
+font-size: 40px;
+text-align: center;
+position: absolute;
+top: 50%; left : 50%;
+transform: translate(-50%, -50%);
+transition: all 0.5s;
+}
+#yes::before{
+  content: 'Yes!';
+}
+#no::before{
+  content: 'Nope';
+}
+#continue::before{
+  content: 'Continue';
+}
+@media only screen and (min-width:1000px)
+{
+  .Quizbanner h2{
+    padding-top: 50px;
+    font-size: 60px;
+    line-height: 40px;
+  }
+  .answer {
+    width: 360px;
+    height: 70px;
+
+    padding: 16px 0px;
+    border-radius: 15px;
+
+  }
+  .answer::before {
+
+  color: rgb(30, 30, 30);
+  font-size: 80px;
+  text-align: center;
+  position: absolute;
+  top: 50%; left : 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+  }
+.answer:hover:before{
+  top: -50px;
+
+}
+#continue:hover:before{
+  top: 50%;
+}
+.answer::after{
+
+color: rgb(30, 30, 30);
+font-size: 80px;
+text-align: center;
+position: absolute;
+top: calc(100% + 50px); left : 50%;
+transform: translate(-50%, -50%);
+transition: all 0.5s;
+}
+#yes::after{
+  content: 'Really?';
+}
+#no::after{
+  content: 'Oh...';
+}
+.answer:hover::after{
+  top: 50%;
+}
+}
+/*icons page*/
+.meh{
+  background-color: #1b262c;
+}
+.funny{
+  margin: 0 auto;
+  width: 90%;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(230, 230, 230);
+
+}
+.funny2{
+  margin: 20px auto;
+  width: 90%;
+  font-size: 40px;
+  text-align: center;
+color: rgb(230, 230, 230);
+
+}
+.logos{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: wrap;
+}
+.logos a{
+  margin: 0 auto;
+  color: rgb(230, 230, 230);
+}
+ion-icon {
+  font-size: 70vw;
+  margin: 0 auto;
+
+}
+@media only screen and (min-width:1000px)
+{
+  .funny{
+
+    font-size: 90px;
+  }
+  .logos{
+    width: fit-content;
+    margin: 0 auto;
+  }
+  ion-icon {
+    font-size: 25vw;
+    margin: 3vw;
+
+  }
+}
+#lie{
+  text-align: center;
+
+  font-size: 140px;
+  font-weight: 800;
+  color: #c81912;
+font-family: 'Rock Salt', cursive;
+width: fit-content;
+margin: 0 auto;
+}
+.go {
+  width: 300px;
+  height: 70px;
+  background-color: rgb(240,240,240);
+  padding: 16px 0px;
+  border-radius: 15px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.go::before {
+content: 'Go back';
+font-family: 'Rock Salt', cursive;
+color: rgb(30, 30, 30);
+font-size: 30px;
+text-align: center;
+position: absolute;
+top: 50%; left : 50%;
+transform: translate(-50%, -50%);
+color: #c81912;
+
+}
+@media only screen and (min-width:1000px)
+{
+  .go {
+    width: 500px;
+    height: 70px;
+
+
+  }
+  .go::before {
+  font-size: 50px;
+
+
+  }
+}
+.con {
+  width: fit-content;
+  margin: 0 auto;
+}
